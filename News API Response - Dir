@@ -1,0 +1,181 @@
+class Story(builtins.object)
+ |  Methods defined here:
+ |  
+ |  __eq__(self, other)
+ |      Returns true if both objects are equal
+ |  
+ |  __init__(self, id=None, title=None, body=None, summary=None, source=None, author=None, entities=None, keywords=None, hashtags=None, characters_count=None, words_count=None, sentences_count=None, paragraphs_count=None, categories=None, social_shares_count=None, media=None, sentiment=None, language=None, published_at=None, links=None)
+ |      Story - a model defined in News API
+ |      
+ |      :param dict apiTypes: The key is attribute name
+ |                                and the value is attribute type.
+ |      :param dict attributeMap: The key is attribute name
+ |                                and the value is json key in definition.
+ |  
+ |  __ne__(self, other)
+ |      Returns true if both objects are not equal
+ |  
+ |  __repr__(self)
+ |      For `print` and `pprint`
+ |  
+ |  to_dict(self)
+ |      Returns the model properties as a dict
+ |  
+ |  to_str(self)
+ |      Returns the string representation of the model
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  author
+ |      Gets the author of this Story.
+ |      The story author
+ |      
+ |      :return: The author of this Story.
+ |      :rtype: Author
+ |  
+ |  body
+ |      Gets the body of this Story.
+ |      Body of the story
+ |      
+ |      :return: The body of this Story.
+ |      :rtype: str
+ |  
+ |  categories
+ |      Gets the categories of this Story.
+ |      Suggested categories for the story
+ |      
+ |      :return: The categories of this Story.
+ |      :rtype: list[Category]
+ |  
+ |  characters_count
+ |      Gets the characters_count of this Story.
+ |      Character count of the story body
+ |      
+ |      :return: The characters_count of this Story.
+ |      :rtype: int
+ |  
+ |  entities
+ |      Gets the entities of this Story.
+ |      Extracted entities from the story title or body
+ |      
+ |      :return: The entities of this Story.
+ |      :rtype: Entities
+ |  
+ |  hashtags
+ |      Gets the hashtags of this Story.
+ |      An array of suggested Story hashtags
+ |      
+ |      :return: The hashtags of this Story.
+ |      :rtype: list[str]
+ |  
+ |  id
+ |      Gets the id of this Story.
+ |      ID of the story which is a unique identification
+ |      
+ |      :return: The id of this Story.
+ |      :rtype: int
+ |  
+ |  keywords
+ |      Gets the keywords of this Story.
+ |      Extracted keywords mentioned in the story title or body
+ |      
+ |      :return: The keywords of this Story.
+ |      :rtype: list[str]
+ |  
+ |  language
+ |      Gets the language of this Story.
+ |      Language of the story
+ |      
+ |      :return: The language of this Story.
+ |      :rtype: str
+ |  
+ |  links
+ |      Gets the links of this Story.
+ |      Links which is related to the story
+ |      
+ |      :return: The links of this Story.
+ |      :rtype: StoryLinks
+ |  
+ |  media
+ |      Gets the media of this Story.
+ |      An array of extracted media such as images and videos
+ |      
+ |      :return: The media of this Story.
+ |      :rtype: list[Media]
+ |  
+ |  paragraphs_count
+ |      Gets the paragraphs_count of this Story.
+ |      Paragraph count of the story body
+ |      
+ |      :return: The paragraphs_count of this Story.
+ |      :rtype: int
+ |  
+ |  published_at
+ |      Gets the published_at of this Story.
+ |      Published date of the story
+ |      
+ |      :return: The published_at of this Story.
+ |      :rtype: datetime
+ |  
+ |  sentences_count
+ |      Gets the sentences_count of this Story.
+ |      Sentence count of the story body
+ |      
+ |      :return: The sentences_count of this Story.
+ |      :rtype: int
+ |  
+ |  sentiment
+ |      Gets the sentiment of this Story.
+ |      Suggested sentiments for the story title or body
+ |      
+ |      :return: The sentiment of this Story.
+ |      :rtype: Sentiments
+ |  
+ |  social_shares_count
+ |      Gets the social_shares_count of this Story.
+ |      Social shares count for the story
+ |      
+ |      :return: The social_shares_count of this Story.
+ |      :rtype: ShareCounts
+ |  
+ |  source
+ |      Gets the source of this Story.
+ |      The story source
+ |      
+ |      :return: The source of this Story.
+ |      :rtype: Source
+ |  
+ |  summary
+ |      Gets the summary of this Story.
+ |      The suggested story summary
+ |      
+ |      :return: The summary of this Story.
+ |      :rtype: Summary
+ |  
+ |  title
+ |      Gets the title of this Story.
+ |      Title of the story
+ |      
+ |      :return: The title of this Story.
+ |      :rtype: str
+ |  
+ |  words_count
+ |      Gets the words_count of this Story.
+ |      Word count of the story body
+ |      
+ |      :return: The words_count of this Story.
+ |      :rtype: int
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  __hash__ = None
+
+None
